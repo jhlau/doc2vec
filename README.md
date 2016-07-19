@@ -2,12 +2,12 @@ The repository contains some python scripts for training and inferring test docu
 
 Requirements
 ============
-* Gensim: If you need to load pre-trained word embeddings when training doc2vec, check out my forked version of Gensim (https://github.com/jhlau/gensim); if not feel free to use the canonical one (https://github.com/RaRe-Technologies/gensim)
+* Gensim: If you need to load pre-trained word embeddings when training doc2vec, check out my [forked version](https://github.com/jhlau/gensim) of Gensim; if not feel free to use the [canonical one](https://github.com/RaRe-Technologies/gensim)
 
 Pre-Trained Doc2Vec Models
 ==========================
-* English Wikipedia DBOW (1.4GB): https://ibm.box.com/s/3f160t4xpuya9an935k84ig465gvymm2
-* Associated Press News DBOW (0.6GB): https://ibm.box.com/s/9ebs3c759qqo1d8i7ed323i6shv2js7e
+* [English Wikipedia DBOW (1.4GB)](https://ibm.box.com/s/3f160t4xpuya9an935k84ig465gvymm2)
+* [Associated Press News DBOW (0.6GB)](https://ibm.box.com/s/9ebs3c759qqo1d8i7ed323i6shv2js7e)
 
 Directory Structure and Files
 =============================
