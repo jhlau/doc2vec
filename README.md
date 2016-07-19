@@ -13,6 +13,7 @@ Directory Structure and Files
 =============================
 * train_model.py: example python script to train some toy data
 * infer_test.py: example python script to infer test document vectors using trained model
+* toy_data: directory containing some toy train/test documents and pre-trained word embeddings
 
 Publications
 ------------
