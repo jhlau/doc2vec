@@ -17,4 +17,4 @@ Directory Structure and Files
 
 Publications
 ------------
-* Jey Han Lau and Timothy Baldwin (2016). An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation. In Proceedings of the 1st Workshop on Representation Learning for NLP, 2016.
+* Jey Han Lau and Timothy Baldwin (2016). [An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation](https://arxiv.org/abs/1607.05368). In Proceedings of the 1st Workshop on Representation Learning for NLP, 2016.
