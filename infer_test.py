@@ -13,7 +13,7 @@ infer_epoch=1000
 
 #load model
 m = g.Doc2Vec.load(model)
-test_docs = [ x.strip() for x in codecs.open(test_docs, "r", "utf-8").readlines() ]
+test_docs = [ x.strip().split() for x in codecs.open(test_docs, "r", "utf-8").readlines() ]
 
 #infer test vectors
 output = open(output_file, "w")
