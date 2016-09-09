@@ -9,6 +9,12 @@ Pre-Trained Doc2Vec Models
 * [English Wikipedia DBOW (1.4GB)](https://ibm.box.com/s/3f160t4xpuya9an935k84ig465gvymm2)
 * [Associated Press News DBOW (0.6GB)](https://ibm.box.com/s/9ebs3c759qqo1d8i7ed323i6shv2js7e)
 
+Pre-Trained Word2Vec Models
+===========================
+For reproducibility we also released the pre-trained word2vec skip-gram models on Wikipedia and AP News:
+* [English Wikipedia Skip-Gram (1.4GB)](https://ibm.box.com/s/cnw0975zzpbdpndm8hmw9d0umhp63yef)
+* [Associated Press News Skip-gram (0.6GB)](https://ibm.box.com/s/77etivy69jmga0x0u6vs2n47ul8baks4)
+
 Directory Structure and Files
 =============================
 * train_model.py: example python script to train some toy data
