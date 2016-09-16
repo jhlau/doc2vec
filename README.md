@@ -23,13 +23,13 @@ Directory Structure and Files
 
 Model Hyper-Parameter Explanation
 =================================
-* sample: this is the sub-sampling threshold to downsample frequent words; 10e-5 is usually good for DBOW, and 10e-6 for DMPV
-* hs: 1 turns on hierarchical sampling; this is rarely turned on as negative sampling is in general better
-* dm: 0 = DBOW; 1 = DMPV
-* negative: number of negative samples; 5 is a good value
-* dbow_words: 1 turns on updating of word embeddings. In DBOW, word embeddings are technically not learnt (only document embeddings are learnt). To learn word vectors, DBOW runs a step of skip-gram before the DBOW step to update the word embeddings. With dbow_words turned off, this means DBOW will randomly initialise word embeddings and keep them randomly initialised. This is rather bad in practice (as the model does not see relationships between words in the embedding space), so it should be turned on
-* dm_concat: 1 = concatenate input word vectors for DMPV; 0 = sum/average input word vectors. This setting is only used for DMPV since DBOW has only one input word
-* dm_mean: 1 = average input word vectors; 0 = sum input word vectors. Again, this setting is only used for DMPV. The original paragraph vector paper concatenates input word vectors for DMPV, and that's the setting we used in our paper
+* __sample__: this is the sub-sampling threshold to downsample frequent words; 10e-5 is usually good for DBOW, and 10e-6 for DMPV
+* __hs__: 1 turns on hierarchical sampling; this is rarely turned on as negative sampling is in general better
+* __dm__: 0 = DBOW; 1 = DMPV
+* __negative__: number of negative samples; 5 is a good value
+* __dbow_words__: 1 turns on updating of word embeddings. In DBOW, word embeddings are technically not learnt (only document embeddings are learnt). To learn word vectors, DBOW runs a step of skip-gram before the DBOW step to update the word embeddings. With dbow_words turned off, this means DBOW will randomly initialise word embeddings and keep them randomly initialised. This is rather bad in practice (as the model does not see relationships between words in the embedding space), so it should be turned on
+* __dm_concat__: 1 = concatenate input word vectors for DMPV; 0 = sum/average input word vectors. This setting is only used for DMPV since DBOW has only one input word
+* __dm_mean__: 1 = average input word vectors; 0 = sum input word vectors. Again, this setting is only used for DMPV. The original paragraph vector paper concatenates input word vectors for DMPV, and that's the setting we used in our paper
 
 Publications
 ------------
