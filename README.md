@@ -30,6 +30,7 @@ Model Hyper-Parameter Explanation
 * __dbow_words__: 1 turns on updating of word embeddings. In DBOW, word embeddings are technically not learnt (only document embeddings are learnt). To learn word vectors, DBOW runs a step of skip-gram before the DBOW step to update the word embeddings. With dbow_words turned off, this means DBOW will randomly initialise word embeddings and keep them randomly initialised. This is rather bad in practice (as the model does not see relationships between words in the embedding space), so it should be turned on
 * __dm_concat__: 1 = concatenate input word vectors for DMPV; 0 = sum/average input word vectors. This setting is only used for DMPV since DBOW has only one input word
 * __dm_mean__: 1 = average input word vectors; 0 = sum input word vectors. Again, this setting is only used for DMPV. The original paragraph vector paper concatenates input word vectors for DMPV, and that's the setting we used in our paper
+* __iter__: number of iterations/epochs to train the model
 
 Publications
 ------------
