@@ -3,7 +3,7 @@ The repository contains some python scripts for training and inferring test docu
 Requirements
 ============
 * Python2: Pre-trained models and scripts all support Python2 only.
-* Gensim: If you need to load pre-trained word embeddings when training doc2vec, check out my [forked version](https://github.com/jhlau/gensim) of Gensim; if not feel free to use the [canonical one](https://github.com/RaRe-Technologies/gensim)
+* Gensim: ~~If you need to load pre-trained word embeddings when training doc2vec, check out my [forked version](https://github.com/jhlau/gensim) of Gensim; if not feel free to use the [canonical one](https://github.com/RaRe-Technologies/gensim)~~ Best to use my [forked version](https://github.com/jhlau/gensim) of gensim; the latest gensim has changed its Doc2Vec methods a little and so would not load the pre-trained models.
 
 Pre-Trained Doc2Vec Models
 ==========================
