@@ -7,14 +7,16 @@ Requirements
 
 Pre-Trained Doc2Vec Models
 ==========================
-* [English Wikipedia DBOW (1.4GB)](https://unimelbcloud-my.sharepoint.com/:f:/g/personal/jeyhan_lau_unimelb_edu_au/EgzpOQsDqjJIqN8Pd0DksgUBGXr6oW4NX1csPPWBjYFr-Q?e=3dqgGg): 2016-doc2vec/enwiki_dbow.tgz
-* [Associated Press News DBOW (0.6GB)](https://unimelbcloud-my.sharepoint.com/:f:/g/personal/jeyhan_lau_unimelb_edu_au/EgzpOQsDqjJIqN8Pd0DksgUBGXr6oW4NX1csPPWBjYFr-Q?e=3dqgGg): 2016-doc2vec/apnews_dbow.tgz
+* All data can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au:443/mflux/share.mfjp?_token=zBcveHmBVFZESuh9lWTF112828722&browser=true&filename=2016-doc2vec.zip).
+* English Wikipedia DBOW (1.4GB): 2016-doc2vec/enwiki_dbow.tgz
+* Associated Press News DBOW (0.6GB): 2016-doc2vec/apnews_dbow.tgz
 
 Pre-Trained Word2Vec Models
 ===========================
 For reproducibility we also released the pre-trained word2vec skip-gram models on Wikipedia and AP News:
-* [English Wikipedia Skip-Gram (1.4GB)](https://unimelbcloud-my.sharepoint.com/:f:/g/personal/jeyhan_lau_unimelb_edu_au/EgzpOQsDqjJIqN8Pd0DksgUBGXr6oW4NX1csPPWBjYFr-Q?e=3dqgGg): 2016-doc2vec/enwiki_sg.tgz
-* [Associated Press News Skip-gram (0.6GB)](https://unimelbcloud-my.sharepoint.com/:f:/g/personal/jeyhan_lau_unimelb_edu_au/EgzpOQsDqjJIqN8Pd0DksgUBGXr6oW4NX1csPPWBjYFr-Q?e=3dqgGg): 2016-doc2vec/apnews_sg.tgz
+* All data can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au:443/mflux/share.mfjp?_token=zBcveHmBVFZESuh9lWTF112828722&browser=true&filename=2016-doc2vec.zip).
+* English Wikipedia Skip-Gram (1.4GB): 2016-doc2vec/enwiki_sg.tgz
+* Associated Press News Skip-gram (0.6GB): 2016-doc2vec/apnews_sg.tgz
 
 Directory Structure and Files
 =============================
