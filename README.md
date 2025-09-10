@@ -7,14 +7,14 @@ Requirements
 
 Pre-Trained Doc2Vec Models
 ==========================
-* All data can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au:443/mflux/share.mfjp?_token=zBcveHmBVFZESuh9lWTF112828722&browser=true&filename=2016-doc2vec.zip).
+* All data can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au/mflux/data/mover/index.html?token=kg48rxcqq76v15kvwwsfj2iqkvmijugyydjrqr2jq8gseyh4ojrt1nw0rg3dq2k70l23lv5klxose7z8nrm7eccvx47plvyr84ldj8mi9yfmwoh5nzfdwm8luxw3uupewpzhibyyfz4f2zy6ypsdqxcc9pjm3cf8hndwc7uie27r5cyprp0fxzwwnxd3fsuzk49f6gfbhqbyxwdv31y6k2al97hgww9034vi1oq5) (note: you'll be prompted to download a program called "Mediaflux Data Mover" - after installing it, click the link again and open Mediaflux Daata Mover and you'll be able to download the data via the program).
 * English Wikipedia DBOW (1.4GB): 2016-doc2vec/enwiki_dbow.tgz
 * Associated Press News DBOW (0.6GB): 2016-doc2vec/apnews_dbow.tgz
 
 Pre-Trained Word2Vec Models
 ===========================
 For reproducibility we also released the pre-trained word2vec skip-gram models on Wikipedia and AP News:
-* All data can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au:443/mflux/share.mfjp?_token=zBcveHmBVFZESuh9lWTF112828722&browser=true&filename=2016-doc2vec.zip).
+* All data can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au/mflux/data/mover/index.html?token=kg48rxcqq76v15kvwwsfj2iqkvmijugyydjrqr2jq8gseyh4ojrt1nw0rg3dq2k70l23lv5klxose7z8nrm7eccvx47plvyr84ldj8mi9yfmwoh5nzfdwm8luxw3uupewpzhibyyfz4f2zy6ypsdqxcc9pjm3cf8hndwc7uie27r5cyprp0fxzwwnxd3fsuzk49f6gfbhqbyxwdv31y6k2al97hgww9034vi1oq5) (note: you'll be prompted to download a program called "Mediaflux Data Mover" - after installing it, click the link again and open Mediaflux Daata Mover and you'll be able to download the data via the program).
 * English Wikipedia Skip-Gram (1.4GB): 2016-doc2vec/enwiki_sg.tgz
 * Associated Press News Skip-gram (0.6GB): 2016-doc2vec/apnews_sg.tgz
 
